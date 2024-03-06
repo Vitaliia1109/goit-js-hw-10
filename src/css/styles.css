@@ -4,5 +4,5 @@
   | default @import url()
   |============================
 */
-
+@import url('./1-timer.css');
 @import url('./reset.css');

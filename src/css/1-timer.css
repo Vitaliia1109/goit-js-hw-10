@@ -1,0 +1,5 @@
+.timer {
+    margin-top: 100px; 
+    justify-content: center; 
+    display: flex; gap: 30px
+}
