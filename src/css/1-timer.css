@@ -1,5 +1,31 @@
 .timer {
-    margin-top: 100px; 
-    justify-content: center; 
-    display: flex; gap: 30px
+  margin-top: 100px;
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.field {
+  text-align: center;
+  width: 160px;
+  font-size: 24px;
+  /* background-color: rgb(55, 184, 201);
+  border: 1px solid rgb(138, 158, 214);
+  border-radius: 5px; */
+  padding: 20px;
+}
+
+.value {
+  display: block;
+  /* background-color: rgb(122, 236, 192); */
+  padding: 16px 12px;
+  border-radius: 5px;
+  font-size: 60px;
+  /* text-transform: uppercase; */
+}
+
+.label {
+  display: block;
+  margin-top: 12px;
+  text-transform: uppercase;
 }
