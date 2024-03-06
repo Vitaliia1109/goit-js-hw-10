@@ -3,19 +3,9 @@ import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 
-// ++++++++++ Styles ++++++++++++++++
 
-// const timerRef = document.querySelector('.timer');
-// const fieldsRef = document.querySelectorAll('.field');
-// const valuesRef = document.querySelectorAll('.value');
-// const labelsRef = document.querySelectorAll('.label');
 
-// timerRef.style.cssText = "margin-top: 100px; justify-content: center; display: flex; gap: 30px";
-// fieldsRef.forEach(field => field.style.cssText = "text-align: center; width: 160px; font-size: 24px; background-color: rgb(55, 184, 201); border: 1px solid rgb(138, 158, 214); border-radius: 5px; padding: 20px;");
-// valuesRef.forEach(value => value.style.cssText = "display: block; background-color: rgb(122, 236, 192); padding: 16px 12px; border-radius: 5px; font-size: 60px;");
-// labelsRef.forEach(label => label.style.cssText = "display: block; margin-top: 12px;");
-
-// ++++++++++++ Timer ++++++++++++++++
+// Timer
 
 const startBtnRef = document.querySelector('[data-start]');
 const inputRef = document.getElementById('datetime-picker');
@@ -26,7 +16,7 @@ const secondsRef = document.querySelector('[data-seconds]');
 
 startBtnRef.disabled = true;
 
-// ++++++++++++ Calendar creation ++++++++++++++++
+// Calendar creation
 
 const options = {
   enableTime: true,
